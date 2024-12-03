@@ -17,28 +17,28 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: ms1_simulation_router
-          uri: lb://MS1_SIMULATION
+        - id: ms1_simulation
+          uri: lb://ms1_simulation
           predicates:
             - Path=/api/loan/simulate/**
-        - id: ms2_register_router
-          uri: lb://MS2_REGISTER
+        - id: ms2_register
+          uri: lb://ms2_register
           predicates:
             - Path=/api/user/**
-        - id: ms3_request_router
-          uri: lb://MS3_REQUEST
+        - id: ms3_request
+          uri: lb://ms3_request
           predicates:
             - Path=/api/loan/**
-        - id: ms4_evaluation_router
-          uri: lb://MS4_EVALUATION
+        - id: ms4_evaluation
+          uri: lb://ms4_evaluation
           predicates:
             - Path=/api/evaluation/**
-        - id: ms5_follow_router
-          uri: lb://MS5_FOLLOW
+        - id: ms5_follow
+          uri: lb://ms5_follow
           predicates:
             - Path=/api/follow/**
-        - id: ms6_calculation_router
-          uri: lb://MS6_CALCULATION
+        - id: ms6_calculation
+          uri: lb://ms6_calculation
           predicates:
             - Path=/api/calculation/**
 
