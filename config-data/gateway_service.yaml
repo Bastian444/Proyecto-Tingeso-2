@@ -1,0 +1,56 @@
+server:
+  port: 8050
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    instance:
+      hostname: localhost
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: ms1_simulation_router
+          uri: lb://MS1_SIMULATION
+          predicates:
+            - Path=/api/loan/simulate/**
+        - id: ms2_register_router
+          uri: lb://MS2_REGISTER
+          predicates:
+            - Path=/api/user/**
+        - id: ms3_request_router
+          uri: lb://MS3_REQUEST
+          predicates:
+            - Path=/api/loan/**
+        - id: ms4_evaluation_router
+          uri: lb://MS4_EVALUATION
+          predicates:
+            - Path=/api/evaluation/**
+        - id: ms5_follow_router
+          uri: lb://MS5_FOLLOW
+          predicates:
+            - Path=/api/follow/**
+        - id: ms6_calculation_router
+          uri: lb://MS6_CALCULATION
+          predicates:
+            - Path=/api/calculation/**
+
+
+#      httpclient:
+#        connect-timeout: 5000
+#        response-timeout: 10000
+
+#      globalcors:
+#        cors-configurations:
+#          '[/]':
+#            allowedOrigins: "http://localhost:5173"
+#            allowedMethods: "*"
+#            allowedHeaders: "*"
+#            allowCredentials: true

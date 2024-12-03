@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47324f23-44c7-48b2-b175-ad187f36a908" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Proyecto-Tingeso-Ev2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/config-data.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka_service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway_service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loan.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms1_simulation.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms2_register.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms3_request.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms4_evaluation.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms5_follow.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms6_calculation.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config_server/src/main/java/com/tingeso/config_server/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config_server/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka_server/src/main/java/com/tingeso/eureka_server/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka_server/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../loan/src/main/java/com/tingeso/loan/LoanApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../loan/src/main/java/com/tingeso/loan/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../loan/src/main/java/com/tingeso/loan/controller/LoanControllerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../loan/src/main/java/com/tingeso/loan/entity/loanEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../loan/src/main/java/com/tingeso/loan/model/UserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../loan/src/main/java/com/tingeso/loan/repository/LoanRepositoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../loan/src/main/java/com/tingeso/loan/service/LoanServiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ms1_simulation/src/main/java/com/tingeso/ms1_simulation/Ms1SimulationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ms1_simulation/src/main/java/com/tingeso/ms1_simulation/controller/SimulationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ms1_simulation/src/main/java/com/tingeso/ms1_simulation/model/SimulationModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ms1_simulation/src/main/java/com/tingeso/ms1_simulation/service/SimulationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ms6_calculation/src/main/java/com/tingeso/ms6_calculation/Ms6CalculationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/java/com/tingeso/user/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/java/com/tingeso/user/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/java/com/tingeso/user/controller/UserControllerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/java/com/tingeso/user/entity/UserEntityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/java/com/tingeso/user/model/LoanModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/java/com/tingeso/user/repository/UserRepositoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/java/com/tingeso/user/service/UserServiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GitHub Desktop.lnk" beforeDir="false" afterPath="$PROJECT_DIR$/../../GitHub Desktop.lnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto Tingeso/proyecto-tingeso-frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto Tingeso/proyecto-tingeso-frontend/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2pRchxjQN3KzS5YANUUCMsSL9Jq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/Desktop/Proyecto-Tingeso-Ev2/config-data",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.24807.4" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.24807.4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47324f23-44c7-48b2-b175-ad187f36a908" name="Changes" comment="" />
+      <created>1732732451358</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732732451358</updated>
+      <workItem from="1732732452418" duration="1059000" />
+      <workItem from="1732997690930" duration="422000" />
+      <workItem from="1732998492397" duration="665000" />
+      <workItem from="1733001306400" duration="2047000" />
+      <workItem from="1733012309566" duration="597000" />
+      <workItem from="1733075172840" duration="869000" />
+      <workItem from="1733076055480" duration="599000" />
+      <workItem from="1733177043297" duration="600000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

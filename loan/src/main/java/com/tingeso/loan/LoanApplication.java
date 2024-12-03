@@ -1,4 +1,4 @@
-package com.tutorial.studentservice;
+package com.tingeso.loan;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class loan {
+public class LoanApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StudentServiceApplication.class, args);
+		SpringApplication.run(LoanApplication.class, args);
 	}
 
 }
